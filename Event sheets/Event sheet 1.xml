@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="717410345541787">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="653695046689790" type="Keyboard">
+                    <param id="0" name="Key">38</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="946857823326942" type="Player">
+                    <param id="0" name="Animation">&quot;upWalking&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="952319449362758">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="892681242166776" type="Keyboard">
+                    <param id="0" name="Key">40</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="480151733295447" type="Player">
+                    <param id="0" name="Animation">&quot;downwalking&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="273284564602208">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="407809270050847" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="812733302124351" type="Player">
+                    <param id="0" name="Animation">&quot;rightWalking&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="494149180284066">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="496614809033524" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="779806439149696" type="Player">
+                    <param id="0" name="Animation">&quot;leftWalking&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

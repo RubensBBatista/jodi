@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>jogo_prototipo</name>
+    <description></description>
+    <version>1</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <app-id></app-id>
+    <unique-id>2ozjc9pckdyl1</unique-id>
+    <saved-with-version>24700</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML 5" />
+    </configurations>
+    <window-size>
+        <width>640</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Fullscreen in browser">Scale inner</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Preview mode">HTTP</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Player" sid="224100629066549">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="463992670073495">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="792633434832083">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="773865107353980">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="0" name="downwalking" pingpong="0" repeatcount="1" repeatto="0" sid="482846541758925" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="3" loop="0" name="upWalking" pingpong="0" repeatcount="1" repeatto="0" sid="786004061801954" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="3" loop="0" name="leftWalking" pingpong="0" repeatcount="1" repeatto="0" sid="869304068536223" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="3" loop="0" name="rightWalking" pingpong="0" repeatcount="1" repeatto="0" sid="204076820429215" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="977996401219373">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Mouse" sid="565578314873698">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Keyboard" sid="874734445451480">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Sprite" sid="806399878641158">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="806635488003287">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="180345995376656" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="209162855827954">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="217038226371507" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tilemap" sid="234055219068509">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\mathe\Downloads\RPG Maker VX Ace Resources\RPG Maker VX Ace Resources\Modern Day Tiles Resource Pack\Modern Day Tiles Resource Pack\VX-Ace\ModernDay_A5.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Sprite3" sid="471300919416228">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="341453468889209" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50087" original-source="C:\Users\mathe\Desktop\MV Default maps Trading City_zpsk3fp5igb.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tilemap2" sid="296178631216758">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\mathe\Downloads\RPG Maker VX Ace Resources\RPG Maker VX Ace Resources\Modern Day Tiles Resource Pack\Modern Day Tiles Resource Pack\VX-Ace\ModernDay_TileB.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Tilemap3" sid="904633665888605">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\mathe\Downloads\RPG Maker VX Ace Resources\RPG Maker VX Ace Resources\Modern Day Tiles Resource Pack\Modern Day Tiles Resource Pack\VX-Ace\ModernDay_TileC.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Tilemap4" sid="793814246399417">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\mathe\Downloads\RPG Maker VX Ace Resources\RPG Maker VX Ace Resources\Modern Day Tiles Resource Pack\Modern Day Tiles Resource Pack\VX-Ace\ModernDay_TileD.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Tilemap5" sid="789074089506996">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\mathe\Downloads\RPG Maker VX Ace Resources\RPG Maker VX Ace Resources\Modern Day Tiles Resource Pack\Modern Day Tiles Resource Pack\VX-Ace\!MDDoorsD.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Tilemap6" sid="938256511421143">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\mathe\Downloads\RPG Maker VX Ace Resources\RPG Maker VX Ace Resources\Modern Day Tiles Resource Pack\Modern Day Tiles Resource Pack\VX-Ace\ModernDay_A4.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Tilemap1" sid="185469520500448">
+            <plugin id="Tilemap" />
+            <texture />
+            <tiles />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="2" />
+        <global-instance type="Keyboard" uid="3" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

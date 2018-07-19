@@ -1,1 +1,1 @@
-# jodi
+# Repositório da disciplina de jogos digitais
