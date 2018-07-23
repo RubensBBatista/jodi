@@ -55,5 +55,65 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="658439529186597">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="151709382696125" type="Player">
+                    <param id="0" name="Object">go_to_l2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="969425699695745" type="System">
+                    <param id="0" name="Layout">Layout 2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="772355148952971">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="271286368877958" type="Player">
+                    <param id="0" name="Object">go_to_l1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="798353928149320" type="System">
+                    <param id="0" name="Layout">Layout 1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="767627337616483">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="155834840595412" type="Player">
+                    <param id="0" name="Object">go_to_l3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="434763674027045" type="System">
+                    <param id="0" name="Layout">Layout 3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="690442605644455">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="392216377377579" type="Player">
+                    <param id="0" name="Object">go_to_home</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="843835264691859" type="System">
+                    <param id="0" name="Layout">Casa</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="618456796287583">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="221506780459409" type="Player">
+                    <param id="0" name="Object">porta_casa</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="586979754036767" type="System">
+                    <param id="0" name="Layout">Layout 3</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
